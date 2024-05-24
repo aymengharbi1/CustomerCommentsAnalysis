@@ -1,0 +1,108 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Mha.DESKTOP-0KPQ9V3\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Mha.DESKTOP-0KPQ9V3\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (Oracle Corporation Java 1.8.0_381)
+[debug] Load.defaultLoad until apply took 7750.8225ms
+[debug]           Load.loadUnit: plugins took 1309.3874ms
+[debug]           Load.loadUnit: defsScala took 1.8824ms
+[debug] [Loading] Scanning directory C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis\project
+[debug]             Load.loadUnit: mkEval took 507.0613ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 35.3432 ms
+[info] loading settings for project customercommentsanalysis-build from idea.sbt ...
+[debug]               Load.resolveProject(customercommentsanalysis-build) took 1374.7468ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id customercommentsanalysis-build, base: C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis\project, plugins: List(<none>))) took 1431.7084ms
+[debug] [Loading] Done in C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis\project, returning: (customercommentsanalysis-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 47047.5549ms
+[debug]           Load.loadUnit: cleanEvalClasses took 826.1029ms
+[debug]         Load.loadUnit(file:/C:/Users/Mha.DESKTOP-0KPQ9V3/Downloads/CustomerCommentsAnalysis/project/, ...) took 49225.9915ms
+[debug]       Load.apply: load took 57106.0374ms
+[debug]       Load.apply: resolveProjects took 8.4636ms
+[debug]       Load.apply: finalTransforms took 742.262ms
+[debug]       Load.apply: config.delegates took 15.4476ms
+[debug]       Load.apply: Def.make(settings)... took 7507.844ms
+[debug]       Load.apply: structureIndex took 802.5287ms
+[debug]       Load.apply: mkStreams took 3.5911ms
+[info] loading project definition from C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 100316.9663ms
+[debug]     Load.loadUnit: defsScala took 0.0045ms
+[debug] [Loading] Scanning directory C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis
+[debug]       Load.loadUnit: mkEval took 0.4506ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 12.4914 ms
+[info] loading settings for project customercommentsanalysis from build.sbt ...
+[debug]         Load.resolveProject(customercommentsanalysis) took 77.5774ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id customercommentsanalysis, base: C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis, plugins: List(<none>))) took 99.6155ms
+[debug] [Loading] Done in C:\Users\Mha.DESKTOP-0KPQ9V3\Downloads\CustomerCommentsAnalysis, returning: (customercommentsanalysis)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3488.6813ms
+[debug]     Load.loadUnit: cleanEvalClasses took 29.8453ms
+[debug]   Load.loadUnit(file:/C:/Users/Mha.DESKTOP-0KPQ9V3/Downloads/CustomerCommentsAnalysis/, ...) took 103838.3126ms
+[debug] Load.apply: load took 104116.7558ms
+[debug] Load.apply: resolveProjects took 0.2328ms
+[debug] Load.apply: finalTransforms took 46.0492ms
+[debug] Load.apply: config.delegates took 0.7806ms
+[debug] Load.apply: Def.make(settings)... took 271.7317ms
+[debug] Load.apply: structureIndex took 56.9726ms
+[debug] Load.apply: mkStreams took 0.0035ms
+[info] set current project to CustomerCommentsAnalysis (in build file:/C:/Users/Mha.DESKTOP-0KPQ9V3/Downloads/CustomerCommentsAnalysis/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63200 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63200, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to CustomerCommentsAnalysis (in build file:/C:/Users/Mha.DESKTOP-0KPQ9V3/Downloads/CustomerCommentsAnalysis/)
+[debug] > Exec(idea-shell, None, None)
